@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lector de Archivos Universal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>📄 Lector de Archivos Universal</h1>
+      <p>Selecciona cualquier archivo para verlo aquí</p>
+    </header>
+
+    <main class="main">
+      <!-- Input de archivo -->
+      <div class="upload-area" id="dropZone">
+        <input type="file" id="fileInput" hidden />
+        <p>Arrastra y suelta un archivo aquí o haz clic para seleccionar</p>
+      </div>
+
+      <!-- Vista previa del contenido -->
+      <div class="preview" id="preview"></div>
+    </main>
+
+    <footer class="footer">
+      <p>App desarrollada con JavaScript moderno</p>
+    </footer>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
