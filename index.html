@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Lector de Archivos Universal</title>
+  <title>Lector de Archivos Pilares</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,8 +12,8 @@
 <body>
   <div class="container">
     <header class="header">
-      <h1>📄 Lector de Archivos Universal</h1>
-      <p>Selecciona cualquier archivo para verlo aquí</p>
+      <h1>📄 Lector de Archivos Pilares Computing</h1>
+      <p>Selecciona o arrastra cualquier archivo para verlo aquí</p>
     </header>
 
     <main class="main">
@@ -24,11 +24,19 @@
       </div>
 
       <!-- Vista previa del contenido -->
-      <div class="preview" id="preview"></div>
+      <div class="preview" id="preview">
+        <!-- El botón de cerrar se insertará dinámicamente -->
+      </div>
+
+      <!-- Indicador de carga -->
+      <div class="loader" id="loader" style="display: none;">
+        <div class="spinner"></div>
+        <p>Cargando archivo...</p>
+      </div>
     </main>
 
     <footer class="footer">
-      <p>App desarrollada con JavaScript moderno</p>
+      <p>App desarrollada con JavaScript moderno by Freddy Morales en Pilares Computing</p>
     </footer>
   </div>
 
